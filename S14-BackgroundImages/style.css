@@ -1,0 +1,53 @@
+div{
+    border: 10px solid burlywood;
+    border-radius: 10px;
+    width: 460px;
+    text-align: center;
+    overflow: auto;
+    display: inline-block;
+}
+img{
+    width: 200px;
+    height: 250px;
+}
+h2{
+    font-size: 3rem;
+    color: gold
+}
+#dubaiPic{
+    object-fit: cover;
+}
+#ausPic{
+    object-fit: cover;
+    object-position: -110px 12px;
+}
+p{
+    color:red;
+}
+#indiaContainer{
+    background-image: url(./Images/indiaLogo.png),url(./Images/pngtree-tiger-wallpapers-hd-image_2669710.jpg),url(./Images/indiabackground.jpg);
+    background-size: 170px, 1200px,600px;
+    background-position: top left, center bottom,top left;
+    background-repeat: no-repeat;
+    background-color: rgb(6, 3,141);
+    background-attachment: scroll,scroll,fixed;
+}
+#dubaiContainer{
+    background-image: url(./Images/dubai\ flag.jpg), url(./Images/dubaianimal.jpg);
+    background-size: 170px,900px;
+    background-repeat: repeat-y;
+    background-color: green;
+    background-position: right top, bottom center;
+}
+#australiaContainer{
+    background-image: url(./Images/Australia.jpg),url(./Images/kangaroo-9884nd4b35ojdy2t.jpg);
+    background-size: 150px, 900px;
+    background-repeat: repeat-x;
+    background-color: yellow;
+    background-position: 325px 200px,right bottom;
+
+}
+body{
+    background-image: url(./Images/background\ img.jpg);
+    background-attachment: fixed;
+}
